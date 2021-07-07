@@ -52,6 +52,7 @@ export default function Home() {
           src="https://cdn.pixabay.com/photo/2015/11/02/14/01/google-1018443_960_720.png"
           height={100}
           width={300}
+          alt="Google"
         />
 
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg 
@@ -62,10 +63,9 @@ export default function Home() {
           <MicrophoneIcon className="h-5"/>
         </div>
 
-        <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 
-        sm:space-y-0 sm:flex-row sm:space-x-4">
+        <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
           <button onClick={search} className="btn">Google Search</button>
-          <button onClick={search} className="btn">I'm Feeling Lucky</button>
+          <button onClick={search} className="btn">I am Feeling Lucky</button>
         </div>
 
       </form>

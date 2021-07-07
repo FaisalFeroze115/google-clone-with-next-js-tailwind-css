@@ -11,8 +11,8 @@ const SearchResults = ({results}) => {
             {results.items?.map((result)=>(
                 <div key={result.link} className="max-w-xl mb-8">
                     <div className="group">
-                        <a href={result.link} target="_blank" className="text-sm">{result.formattedUrl}</a>
-                        <a href={result.link} target="_blank">
+                        <a href={result.link} target="_blank" className="text-sm" rel="noreferrer">{result.formattedUrl}</a>
+                        <a href={result.link} target="_blank" rel="noreferrer">
                             <h2 className="truncate text-xl 
                             text-blue-800 font-medium group-hover:underline">
                                 {result.title}

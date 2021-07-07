@@ -36,6 +36,7 @@ const Header = () => {
                     width={120}
                     className="cursor-pointer"
                     onClick={()=>{router.push('/')}}
+                    alt="google"
                 />
                 <form onSubmit={search} className="flex flex-grow border border-gray-200 rounded-full shadow-lg max-w-3xl 
                 item-center px-6 py-3 ml-10 mr-5">
